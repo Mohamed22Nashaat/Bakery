@@ -1,0 +1,328 @@
+body {
+    margin: 0%;
+}
+
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-image: url(../Assignment/BakeryImages/images/drew-coffman-1872.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.background header {
+    display: inline-block;
+    text-align: right;
+    padding: auto;
+    vertical-align: ;
+    /* position: fixed; */
+
+}
+
+#Bakery {
+    margin-right: 430px;
+    margin-top: 20px;
+    width: 200px;
+    /* background-color: tomato; */
+
+}
+
+.background header ul {
+    display: inline-block;
+    /* background-color: teal; */
+
+}
+
+.background header nav {
+    display: inline-block;
+    text-align: left;
+}
+
+.background header ul li {
+    display: inline-block;
+    padding-right: 30px;
+    position: relative;
+
+}
+
+.background header ul li a {
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.92);
+    text-decoration: none;
+}
+
+.text {
+    margin-top: 100px;
+    font-family: "Alegreya Sans", sans-serif;
+    color: rgba(255, 255, 255, 0.92);
+
+    /* padding: auto; */
+}
+
+.text p {
+    font-size: 22px;
+    line-height: 45px;
+}
+
+
+.text h1 {
+    font-size: 76px;
+    line-height: 45px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+button {
+    width: auto;
+    font-size: 16px;
+    border: 2px solid white;
+    font-family: "Alegreya Sans", sans-serif;
+    padding: 10px 17px;
+    background-color: rgb(142, 119, 84);
+    color: rgb(34, 34, 34);
+    line-height: 22px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+button a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#Contact {
+    background-color: rgb(142, 119, 84, 0);
+    border-radius: 20px;
+    border-style: solid;
+}
+
+
+.container .second,
+.container .third {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.img {
+    width: 49.2%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.img img {
+    width: 100%;
+}
+
+.text1,
+.text2 {
+    width: 48%;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+    font-style: normal;
+    font-weight: 400;
+    /* font-family: "Alegreya Sans", sans-serif; */
+}
+
+.text1 h2 {
+    color: rgb(48, 48, 48);
+    font-size: 32px;
+    line-height: 44px;
+
+}
+
+.container .second .text1 ul {
+    list-style: none;
+}
+
+.container .second .text1 ul li img {
+    width: 40px;
+}
+
+.container .second .text1 ul li span {
+    vertical-align: top;
+}
+
+.container .third {
+    background-color: rgba(104, 104, 104, 0.2);
+}
+
+.container .caption {
+    padding: 20px 0px;
+}
+
+.container .caption h2,
+.container .caption p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container .item {
+    width: 33.3333%;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.container .item img {
+    width: 100%;
+}
+
+.parent {
+    background-color: rgba(104, 104, 104, 0.2);
+    padding: 100px 0px;
+}
+
+.parent .Contact {
+    width: 50%;
+    float: left;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.parent .Contact ul li {
+    list-style: none;
+}
+
+.parent .img1 {
+    width: 50%;
+    padding: 5px 2px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.parent .img1 img {
+    width: 100%;
+}
+
+.parent .Contact ul li img {
+    width: 40px;
+    /* height:1px; */
+}
+
+.parent .Contact ul li span {
+    vertical-align: top;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.footer {
+    width: 100%;
+    /* height: 100%; */
+    background-color: rgba(64, 43, 43, 0.8);
+    font-family: "Alegreya Sans", sans-serif;
+    /* margin: 0; */
+    overflow: hidden;
+}
+
+.footer .section {
+    width: 25%;
+    padding-left: 100px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.footer .section h3 {
+    text-align: left;
+}
+
+.footer .list ul li {
+    list-style: none;
+    text-align: left;
+    /* padding: 0px 100px 0px 0px; */
+}
+
+.footer .list {
+    text-align: left;
+    padding: 0px 100px 0px 0px;
+}
+
+.footer .list ul li img {
+    width: 10px;
+    /* padding: 0px 0px 0px 0px; */
+    /* height: 10px; */
+    /* text-align: left; */
+
+}
+
+.section4 h3 {
+    text-align: left;
+}
+
+ .end {
+    width: 100%;
+    background-color: rgba(64, 43, 43, 0.8);
+    /* overflow: hidden; */
+ }
+
+#one{
+    display: block;
+    margin: 0 auto;
+    padding: 40px 40px 0px 40px;
+}
+
+.end p {
+    color: #fff;
+    padding-left: 43%;
+}
+
+.section4 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.section4 ul li {
+    list-style: none;
+    vertical-align: top;
+
+}
+
+.section4 ul li img {
+    width: 40px;
+}
+
+
+#back {
+    background-image: url(BakeryImages/images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.end{
+    width: 100%;
+}
+.end .group{
+    
+    width: 15%;
+    margin: auto;
+    /* background-color: #fff; */
+}
+
+.end .group img {
+    width: 40;
+    padding: 20px 5px 0px 5px;
+    margin: auto;
+
+
+}
+
+hr {
+    color: aliceblue;
+}
+
+.clear-fix {
+    clear: both;
+}
